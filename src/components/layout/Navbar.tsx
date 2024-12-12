@@ -1,6 +1,5 @@
-import React from 'react';
-import { Logo } from '../ui/Logo';
-import { DownloadButton } from '../ui/DownloadButton';
+import { Logo } from "../ui/Logo";
+import { DownloadButton } from "../ui/DownloadButton";
 
 export function Navbar() {
   return (

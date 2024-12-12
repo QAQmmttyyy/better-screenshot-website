@@ -1,11 +1,10 @@
-import React from 'react';
-import { ArrowRight } from 'lucide-react';
+import { ArrowRight } from "lucide-react";
 
 export function DownloadButton() {
   return (
-    <button className="group bg-purple hover:bg-purple-dark text-light text-lg px-8 py-4 rounded-xl font-semibold transition-all duration-300 flex items-center gap-2 mx-auto">
+    <button className="group bg-blue-600 hover:bg-blue-500 text-light text-base px-4 py-2 rounded-lg font-medium transition-all duration-300 flex items-center gap-1 whitespace-nowrap">
       Download Free
-      <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+      <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
     </button>
   );
 }
